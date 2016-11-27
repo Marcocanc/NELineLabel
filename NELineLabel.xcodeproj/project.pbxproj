@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98DC9791D917616004C22FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DC9781D917616004C22FD /* AppDelegate.swift */; };
+		A98DC97B1D917616004C22FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DC97A1D917616004C22FD /* ViewController.swift */; };
+		A98DC97E1D917616004C22FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98DC97C1D917616004C22FD /* Main.storyboard */; };
+		A98DC9801D917616004C22FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98DC97F1D917616004C22FD /* Assets.xcassets */; };
+		A98DC9831D917617004C22FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98DC9811D917617004C22FD /* LaunchScreen.storyboard */; };
+		A98DC98B1D91762C004C22FD /* NELineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DC98A1D91762C004C22FD /* NELineLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A98DC9751D917616004C22FD /* NELineLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NELineLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98DC9781D917616004C22FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98DC97A1D917616004C22FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A98DC97D1D917616004C22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98DC97F1D917616004C22FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98DC9821D917617004C22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98DC9841D917617004C22FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98DC98A1D91762C004C22FD /* NELineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NELineLabel.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98DC9721D917616004C22FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98DC96C1D917616004C22FD = {
+			isa = PBXGroup;
+			children = (
+				A98DC9771D917616004C22FD /* NELineLabel */,
+				A98DC9761D917616004C22FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98DC9761D917616004C22FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98DC9751D917616004C22FD /* NELineLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98DC9771D917616004C22FD /* NELineLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A98DC9781D917616004C22FD /* AppDelegate.swift */,
+				A98DC97A1D917616004C22FD /* ViewController.swift */,
+				A98DC98A1D91762C004C22FD /* NELineLabel.swift */,
+				A98DC97C1D917616004C22FD /* Main.storyboard */,
+				A98DC97F1D917616004C22FD /* Assets.xcassets */,
+				A98DC9811D917617004C22FD /* LaunchScreen.storyboard */,
+				A98DC9841D917617004C22FD /* Info.plist */,
+			);
+			path = NELineLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98DC9741D917616004C22FD /* NELineLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98DC9871D917617004C22FD /* Build configuration list for PBXNativeTarget "NELineLabel" */;
+			buildPhases = (
+				A98DC9711D917616004C22FD /* Sources */,
+				A98DC9721D917616004C22FD /* Frameworks */,
+				A98DC9731D917616004C22FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NELineLabel;
+			productName = NELineLabel;
+			productReference = A98DC9751D917616004C22FD /* NELineLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98DC96D1D917616004C22FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marco Cancellieri";
+				TargetAttributes = {
+					A98DC9741D917616004C22FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FVRLJ7LR8X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A98DC9701D917616004C22FD /* Build configuration list for PBXProject "NELineLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98DC96C1D917616004C22FD;
+			productRefGroup = A98DC9761D917616004C22FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98DC9741D917616004C22FD /* NELineLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98DC9731D917616004C22FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98DC9831D917617004C22FD /* LaunchScreen.storyboard in Resources */,
+				A98DC9801D917616004C22FD /* Assets.xcassets in Resources */,
+				A98DC97E1D917616004C22FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98DC9711D917616004C22FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98DC98B1D91762C004C22FD /* NELineLabel.swift in Sources */,
+				A98DC97B1D917616004C22FD /* ViewController.swift in Sources */,
+				A98DC9791D917616004C22FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A98DC97C1D917616004C22FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98DC97D1D917616004C22FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98DC9811D917617004C22FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98DC9821D917617004C22FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98DC9851D917617004C22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98DC9861D917617004C22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98DC9881D917617004C22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FVRLJ7LR8X;
+				INFOPLIST_FILE = NELineLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clever-apps.NELineLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A98DC9891D917617004C22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FVRLJ7LR8X;
+				INFOPLIST_FILE = NELineLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clever-apps.NELineLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98DC9701D917616004C22FD /* Build configuration list for PBXProject "NELineLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DC9851D917617004C22FD /* Debug */,
+				A98DC9861D917617004C22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98DC9871D917617004C22FD /* Build configuration list for PBXNativeTarget "NELineLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DC9881D917617004C22FD /* Debug */,
+				A98DC9891D917617004C22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98DC96D1D917616004C22FD /* Project object */;
+}
