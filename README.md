@@ -1,3 +1,4 @@
+![Banner](https://raw.githubusercontent.com/Marcocanc/NELineLabel/master/NELineLabel-Banner.png)
 # NELineLabel
 A UILabel subclass that adds a decorative line
 
