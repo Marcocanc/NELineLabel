@@ -8,28 +8,29 @@
 
 import UIKit
 
-@IBDesignable class NELineLabel: UILabel {
+@IBDesignable
+open class NELineLabel: UILabel {
 
     @IBInspectable
-    var lineHeight: CGFloat = 1 {
+    open var lineHeight: CGFloat = 1 {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
     @IBInspectable
-    var lineSpace: CGFloat = 10 {
+    open var lineSpace: CGFloat = 10 {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
-    var lineY: CGFloat {
+    open var lineY: CGFloat {
         return self.bounds.midY - self.lineHeight / 2
     }
     
     
-    override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         super.draw(rect)
         
         let size = self.intrinsicContentSize
